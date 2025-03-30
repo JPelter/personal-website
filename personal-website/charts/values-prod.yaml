@@ -1,0 +1,9 @@
+image: docker.io/jpelter/pelter-react-frontend
+imageTag:
+imagePullSecret: pelter-gmail-dockerhub
+
+replicas: 1
+
+port: 80
+ingressHost: pelter.net
+ingressRateLimit: '10'
